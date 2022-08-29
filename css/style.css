@@ -440,7 +440,6 @@ h3 {
 /*  */
 #cart-info {
   width: 300px;
-  display: none;
   position: absolute;
   top: -10px;
   right: 0px;
@@ -448,6 +447,9 @@ h3 {
   background-color: var(--White);
   box-shadow: 0px 5px 10px var(--Grayish-blue);
   border-radius: 7px;
+}
+.cart-info-toggle {
+  display: none;
 }
 #cart-main {
   display: flex;
@@ -509,7 +511,7 @@ h3 {
 #delete {
   cursor: pointer;
 }
-#cart-info p{
+#empty {
   font-size: 16px;
   font-weight: 600;
   color: var(--Dark-grayish-blue);
